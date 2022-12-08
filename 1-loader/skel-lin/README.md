@@ -4,7 +4,7 @@ Grupa: 323CA
 # Tema 1: ELF Executable Loader
 
 # Organization
--
+
 The loader file performs uploading an Executable and Linkable Format File (ELF)
 and mapping it to the virtual memory page by page through a mechanism known
 as *demand paging*.
@@ -12,7 +12,7 @@ The implementation is focused on resolving a page fault following a page fault
 routine.
 
 # Implementation
--
+
 The SIGSEGV signal (marking a possible segmentation fault) is intercepted and 
 has to undergo through a routine known as page fault routine in order to
 resolve the issue.
@@ -40,7 +40,7 @@ addresses that have already been mapped.
 
 
 # Usage
--
+
 In order to run the loader, we use the following command to build the library:
 
 ```
@@ -48,7 +48,7 @@ make
 ```
 
 # Bibliography
--
+
 * [Executable and Linkable Format](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)
 
 * [Lab - Signals](https://ocw.cs.pub.ro/courses/so/laboratoare/laborator-04)
