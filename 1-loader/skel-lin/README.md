@@ -1,4 +1,5 @@
 Nume: Alexandru Mihai
+
 Grupa: 323CA
 
 # Tema 1: ELF Executable Loader
